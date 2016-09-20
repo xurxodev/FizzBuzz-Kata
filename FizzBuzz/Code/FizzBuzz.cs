@@ -10,7 +10,12 @@ namespace KataBizzBuzz.Code
     {
         public static string[] GenerateOutput(int maxNumber)
         {
-            return new string[] {"1"};
+            String[] result = new String[maxNumber];
+            for (int i = 1; i <= maxNumber; i++)
+            {
+                result[i-1] = i.ToString();
+            }
+            return result;
         }
     }
 }

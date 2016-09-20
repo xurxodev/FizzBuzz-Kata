@@ -16,5 +16,11 @@ namespace KataBizzBuzz.Test
             Assert.Equal(new String[] {"1"},FizzBuzz.GenerateOutput(1));
         }
 
+        [Fact]
+        public void Generating_The_First_Two_Numbers_If_MaxNumber_Is_Two()
+        {
+            Assert.Equal(new String[] { "1","2" }, FizzBuzz.GenerateOutput(2));
+        }
+
     }
 }
