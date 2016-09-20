@@ -8,5 +8,9 @@ namespace KataBizzBuzz.Code
 {
     public class FizzBuzz
     {
+        public static string[] GenerateOutput(int maxNumber)
+        {
+            return new string[] {"1"};
+        }
     }
 }
