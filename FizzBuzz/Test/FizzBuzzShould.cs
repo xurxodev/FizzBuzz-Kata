@@ -15,5 +15,6 @@ namespace KataBizzBuzz.Test
         {
             Assert.Equal(new String[] {"1"},FizzBuzz.GenerateOutput(1));
         }
+
     }
 }
