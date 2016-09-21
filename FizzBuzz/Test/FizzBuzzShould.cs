@@ -93,5 +93,11 @@ namespace KataBizzBuzz.Test
         {
             Assert.Equal(new String[] { "1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14" }, FizzBuzz.GenerateOutput(14));
         }
+
+        [Fact]
+        public void Generating_The_First_Fiveteen_Numbers_With_Bizz_And_Buzz_If_MaxNumber_Is_Fiveteen()
+        {
+            Assert.Equal(new String[] { "1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz" }, FizzBuzz.GenerateOutput(15));
+        }
     }
 }
