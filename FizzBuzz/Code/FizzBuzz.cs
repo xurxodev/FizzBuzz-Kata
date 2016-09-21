@@ -13,9 +13,18 @@ namespace KataBizzBuzz.Code
             String[] result = new String[maxNumber];
             for (int i = 1; i <= maxNumber; i++)
             {
-                result[i-1] = i.ToString();
+                result[i - 1] = GetValue(i);
             }
             return result;
+        }
+
+        private static String GetValue(int i)
+        {
+            if (i % 3 == 0)
+            {
+                return "Fizz";
+            }
+            return  i.ToString();
         }
     }
 }
