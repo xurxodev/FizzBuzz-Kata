@@ -27,5 +27,11 @@ namespace KataBizzBuzz.Test
         {
             Assert.Equal(new String[] { "1", "2", "Fizz" }, FizzBuzz.GenerateOutput(3));
         }
+
+        [Fact]
+        public void Generating_The_First_Four_Numbers_If_MaxNumber_Is_Four()
+        {
+            Assert.Equal(new String[] { "1", "2", "Fizz", "4" }, FizzBuzz.GenerateOutput(4));
+        }
     }
 }
