@@ -37,13 +37,13 @@ Buzz
  * A number is fizz if it is divisible by 3 or if it has a 3 in it
  * A number is buzz if it is divisible by 5 or if it has a 5 in it
  
-Developed By
-------------
+##Developed By
+
 
 * Jorge Sánchez Fernández aka [xurxodev](https://twitter.com/xurxodev)
 
-License
--------
+##License
+
 
     Copyright 2016 Jorge Sánchez Fernández
 
